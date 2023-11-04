@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Better Off With Boys</title>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" href="./images/favicon.ico" />
+
+</head>
+<body>
+
+	<div class="position-relative " id="begin_screen"> <img class="" src="./images/cover_vn.png"> <div class="position-absolute choice enter" id="begin"> Begin Reading "Better Off With Boys" <br/><i> (A Clippyland Visual Novel)</i></div></div>
+
+	<div class="position-relative hide" data-currentBack="a" id="page"> 
+		<div id="dialogue" class="position-absolute dial"> </div>
+		<div class="choices-list position-absolute hide">
+			<div class="choice-option" data-nextPg="a2">Uh, why are you giving me your measurements? </div>  
+			<div class="choice-option" data-nextPg="a3">Fuck, nice to meet you. </div>  
+		</div>
+
+		<img class="speaker position-absolute with-choice" src="./images/ellie-removebg-preview.png" id="speaker">
+		<div class="position-absolute continue choice hide" id="continue" data-nextPg=""> Press here to continue </div>
+	</div>
+
+	<script type="text/javascript" src="./script.js"></script>
+	<script type="text/javascript" src="./data.js"></script>
+</body>
+</html>
